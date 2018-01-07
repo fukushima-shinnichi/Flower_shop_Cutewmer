@@ -26,7 +26,7 @@ google Mapの埋込み、レスポンシブデザイン、jQueryを利用した�
            └─ Flower_shop_Cutewmer.css                       # jsファイル（自身でコーディング）   
 ```
 ## インストール方法
-1、全てのファイルをフォークし、ローカルにクローンを作成。  
+1、全てのファイルをフォークし、ローカルにクローンを作成。  
 2、ローカルに保存したHTMLファイルをウェブブラウザで開く。  
 ## デモサイトURL（ポートフォリオURL）
 [http://s-fukushima.sakura.ne.jp/Portfolio_20170701.html](http://s-fukushima.sakura.ne.jp/Portfolio_20170701.html "ポートフォリオURL")
