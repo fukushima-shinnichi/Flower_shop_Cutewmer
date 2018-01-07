@@ -1,0 +1,429 @@
+/*overall*/
+body {
+  background-color: #fff;
+}
+
+/*main*/
+div#main{
+  width: 1280px;
+  background-color: #f5f5f5;
+  margin: auto;
+}
+
+/*top*/
+div#top{
+  width: 1280px;
+  height: 129px;
+  overflow: hidden;
+}
+
+div#top img{
+  float: right;
+  width: 40px;
+  margin-left:20px;
+  margin-top: 79px;
+}
+
+/*main photo*/
+div#main_photo{
+  width: 1280px;
+  overflow: hidden;
+  position: relative;
+}
+
+div#main_photo ul{
+  width: 50000px;
+  margin: 0px;
+  margin-left: -1280px;
+  padding: 0px;
+}
+
+#slide li{
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 853.13px;
+}
+
+#slide li img{
+  width: 1280px;
+}
+
+div#main_photo h1{
+  margin: 0px;
+  position: absolute;
+  top: 80%;
+  left: 10px;
+  font-family: 'Comic Sans MS','cursive';
+  font-size: 75px;
+  font-weight: normal;
+}
+
+div#main_photo i.fa-arrow-right{
+  font-size: 50px;
+  cursor: pointer;
+  color: #a9a9a9;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+
+div#main_photo i.fa-arrow-left{
+  cursor: pointer;
+  font-size: 50px;
+  color: #a9a9a9;
+  position: absolute;
+  top: 401.565px;
+  left: 10px;
+}
+
+/*under*/
+div#under{
+  width: 1280px;
+  height: 129px;
+  overflow: hidden;
+  position: relative;
+}
+
+div#under i{
+  font-size: 50px;
+  color: #a9a9a9;
+  cursor: pointer;
+  position: absolute;
+  top: 39.5px;
+  left: 616.78px;
+}
+
+div#under i.fa-arrow-up{
+  display: none;
+}
+
+/*inside*/
+div#inside {
+  display: none;
+}
+
+  /*global_nav*/
+div#inside nav{
+  width: 1280px;
+  overflow: hidden;
+}
+
+#global_nav ul{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+#global_nav li{
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 5px 0px;
+  width: 425px;
+  border-right: solid 2.5px #a9a9a9;
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Comic Sans MS','cursive';
+}
+
+#global_nav li:last-child{
+  border: none;
+}
+
+#global_nav li:hover{
+  background-color: #808080;
+  color: #fff;
+}
+
+  /*article*/
+section.recommended h2,section.concept h2,section.maps h2{
+  font-size: 25px;
+  font-family: 'Comic Sans MS','cursive';
+  font-weight: normal;
+  text-align: center;
+  width: 1080px;
+  margin: 30px 100px 0px 100px;
+  padding-bottom: 5px;
+  border-bottom: solid 2.5px #a9a9a9;
+}
+
+div.recommended,div.concept {
+  width: 1080px;
+  margin: 0px 100px 0px 100px;
+  overflow: hidden;
+}
+
+     /*recommend*/
+div.recommended ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+div.recommended ul li{
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+  height: 226.52px;
+  margin-top: 30px;
+}
+
+div.recommended ul li:last-child{
+  margin-right: 0px;
+}
+
+div.recommended ul li img{
+  width: 340px;
+}
+
+div.InRecommend{
+  width: 340px;
+  margin-right: 30px;
+  float: left;
+}
+
+div.InRecommend:last-child{
+  margin-right: 0px;
+}
+
+      /*article all h3*/
+div.InRecommend h3,div.concept h3,div.AboutMaps h3{
+  font-size: 25px;
+  font-family: 'Comic Sans MS','cursive';
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+      /*article all small*/
+div.InRecommend small,div.concept small,div.AboutMaps small{
+  width: 340px;
+  display: block;
+  font-size: 15px;
+  font-family: 'Comic Sans MS','cursive';
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
+}
+
+      /*article all p*/
+div.InRecommend p,div.concept p,div.AboutMaps p{
+  font-size: 20px;
+  font-family: 'Comic Sans MS','cursive';
+  font-weight: normal;
+  text-align: center;
+  margin: 0px;
+}
+
+    /*concept*/
+div.concept small {
+  width: 1080px;
+}
+
+    /*maps*/
+div.AboutMaps small{
+  font-family: 'sans-serif';
+  width: 540px;
+}
+
+section.maps div{
+  width: 540px;
+  float: left;
+  border-bottom: solid 2.5px #a9a9a9;
+  padding-bottom: 50px;
+  
+}
+
+section.maps div.maps{
+  height: 614px;
+  margin-left: 100px;
+}
+
+section.maps {
+  overflow: hidden;
+}
+
+div.maps iframe{
+  margin: 50px;
+}
+
+/*footer*/
+footer small{
+  width: 1280px;
+  display: block;
+  text-align: center;
+}
+
+
+/*smartphone*/
+@media screen and (max-width:767px){
+  
+  div#main,div#top,div#inside,div#under,footer small{
+    width: 320px;
+    margin: auto;
+  }
+  
+  /*top*/
+  div#top{
+    height: 50px;
+  }
+  
+  div#top img{
+    width: 20px;
+    margin: 20px 0px 0px 10px;
+  }
+  
+  /*main_photo*/
+  div#main_photo{
+    width: 320px;
+    margin: 0px auto;
+    height: 213.28px;
+    position: relative;
+  }
+  
+  div#main_photo ul{
+    margin-left: -320px;
+  }
+  
+  #slide li,#slide li img{
+    width:320px;
+    height: 213.28px;
+    margin: 0px auto;
+  }
+  
+  div#main_photo h1{
+    width: 100%;
+    font-size: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  div#main_photo i.fa-arrow-right{
+    font-size: 20px;
+    position: absolute;
+    top: 96.64px;
+    right: 5px;
+  }
+  
+  div#main_photo i.fa-arrow-left{
+    font-size: 20px;
+    position: absolute;
+    top: 96.64px;
+    left: 5px;
+  }
+  
+  /*under*/
+  div#under {
+    position: relative;
+    height: 50px;
+  }
+  
+  div#under i{
+    font-size: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: calc(50% - 9.29px);
+  }
+  
+  /*inside*/
+    /*nav*/
+  nav#global_nav{
+    width: 320px;
+  }
+  
+  nav#global_nav li{
+    float: none;
+    width: 300px;
+    margin: 0px 10px;
+    padding: 0px;
+    border: none;
+    font-size: 20px;
+  }
+    /*article*/
+  article#contents_overall h2{
+    width: 300px;
+    margin: 20px 10px 0px 10px;
+    font-size: 20px;
+  }
+  
+  div.recommended,div.concept{
+    width: 300px;
+    margin: 0px 10px 0px 10px;
+  }
+  
+      /*recommended*/
+  div.recommended ul li{
+    float: none;
+    width: 300px;
+    height: 199.88px;
+    margin: 10px 0px;;
+  }
+  
+  div.recommended ul li:last-child{
+    height: 195px;
+  }
+  
+  div.recommended ul li img{
+    float: none;
+    width: 300px;
+  }
+  
+  div.InRecommend{
+    width: 300px;
+    margin: 0px;
+  }
+  
+      /*article all h3*/
+  div.InRecommend h3,div.concept h3,div.AboutMaps h3{
+    font-size: 20px;
+  }
+  
+      /*article all small*/
+  div.InRecommend small,div.concept small,div.AboutMaps small{
+    font-size: 10px;
+  }
+  
+      /*article all p*/
+  div.InRecommend p,div.concept p,div.AboutMaps p{
+    font-size: 15px;
+  }
+  
+    /*cocept*/
+  div.concept small{
+    width: 300px;
+  }
+  
+  /*map*/
+  section.maps div.maps{
+    float: none;
+    width: 320px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  div.maps iframe{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  section.maps div {
+    float: none;
+    width: 300px;
+    padding-bottom: 10px;
+  }
+  
+  div.AboutMaps small{
+    width: 300px;
+  }
+  
+  /*footer*/
+  footer small{
+    font-size: 10px;
+  }
+}
