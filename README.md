@@ -36,7 +36,7 @@ google Mapの埋込み、レスポンシブデザイン、jQueryを利用した�
 
 # Cute flower shop of website
 ## Overview
-* this web site concept is shop of cafe or miscellaneous style.
+* this web site concept is flower shop of cute & cool style.
 * use HTML5,CSS3,jQuery.
 * correspondence of responsive design.
 * my web design skill is this web site.
