@@ -23,7 +23,7 @@ google Mapの埋込み、レスポンシブデザイン、jQueryを利用した�
 |           └─ Flower_shop_Cutewmer.css                      # CSSファイル（自身でコーディング）
 └─ js/
     └─ Flower_shop_Cutewmer                                  # jsファイル保存フォルダー
-           └─ Flower_shop_Cutewmer.css                       # jsファイル（自身でコーディング）   
+           └─ Flower_shop_Cutewmer.js                        # jsファイル（自身でコーディング）   
 ```
 ## インストール方法
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
@@ -57,7 +57,7 @@ Component file/
 |          └─ Flower_shop_Cutewmer.css                       # file of top page css.（my coding）
 └─ js/
     └─ Flower_shop_Cutewmer                                  # folder of js.
-           └─ Flower_shop_Cutewmer.css                       # file of top page js.(my coding)
+           └─ Flower_shop_Cutewmer.js                        # file of top page js.(my coding)
 ```
 ## Install
 1、all files do fork and this all files do clone in local.  
